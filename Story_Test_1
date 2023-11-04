@@ -1,0 +1,22 @@
+import random
+import classes
+
+# Story and combat
+# Example story: Trying to convince a dragon and save a princess ig (if you attack it says combat functionality is
+# incomplete!) (What!) (Anyways!)
+
+name = input("Hello there good traveler! What is your name?"
+             "-->")
+name = classes.Character()
+
+race = input("And of what species may you be? Dragonborn, Tiefling, Elf, Human, Drow"
+             "-->")
+name.race = race
+
+clas = input("And at last, your denomination? Bard/Rouge?"
+             "-->")
+name.clas = clas
+
+name.class_bonus()
+name.race_bonus()
+name.create_char()
