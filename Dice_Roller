@@ -1,0 +1,7 @@
+from random import randint
+
+
+# create dice rolling system
+
+def dice(num):
+    randint(1, num)
